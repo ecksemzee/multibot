@@ -1,3 +1,5 @@
+// run start.sh instead this!
+
 // imports
 const fs = require("fs");
 const { BotSettings } = require("../config.json");
