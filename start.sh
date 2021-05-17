@@ -1,18 +1,18 @@
 #!/bin/bash
 # shell script to check for node 
 
-echo "Please wait while I attempt to start up node"
+printf "Please wait while I attempt to start up node\n"
 
 #check if node exists
 if [[ ! command -v node %> /dev/null ]] ; then
-    echo "Please install node.js v14.xx.xx LTS!"
+    printf "Please install node.js v14.xx.xx LTS!\n"
     exit
 fi
 
 NODEVER=$(node -v)
 
 if [[ ! $NODEVER =~ ^v1[4-5](.*)[0-9] ]] ; then
-    echo "Please upgrade node! Currently v16 is unsupported!"
+    printf "Please upgrade node! Currently v16 is unsupported!\n"
     exit
 fi
 
