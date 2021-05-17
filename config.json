@@ -1,0 +1,11 @@
+{
+    "BotSettings": {
+        "BotPrefix": ">",
+        "TokensFile": "tokens.txt",
+        "BotPresence": {
+            "On": false,
+            "Value": "hello",
+            "UsePhoneAsStatusIcon": false
+        }
+    }
+}
