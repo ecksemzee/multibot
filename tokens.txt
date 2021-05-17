@@ -1,0 +1,3 @@
+put on your bot tokens, separate each token by new line
+just don't blindly run this script without over writing this file with tokens or the script will yell at you for no "valid tokens" despite no token is in the file
+you can't use user tokens here
