@@ -9,7 +9,7 @@ const { Worker, isMainThread } = require("worker_threads");
 function readTokens() {
     const file = BotSettings.TokensFile;
     try {
-        return fs.readFileSync(`../${file}`, {
+        return fs.readFileSync(`${file}`, {
             encoding: "utf-8",
             flag: "r"
         })
