@@ -22,7 +22,7 @@ function readTokens() {
                 }
             );
     } catch(e) {
-        console.log(`Had a problem reading tokens file! Make sure there is '${file}' exists!`); // best documentation ever, without specifying path
+        console.log(`Had a problem reading tokens file! Make sure file '${file}' exists!`); // best documentation ever, without specifying path
         process.exit();
     }
 }
