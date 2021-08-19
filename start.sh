@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 # shell script to check for node 
 
 printf "Please wait while I attempt to start up node\n"
 
 #check if node exists
-command -v node %> /dev/null || (printf "Node is not installed on your system.\n" && exit)
+command -v node > /dev/null || (printf "Node is not installed on your system.\n" && exit)
 
 # get node ver and checl
 [ -z "$(node -v | grep '^v1[4-6]')" ] && (printf "Upgrade your node to at least v14" && exit)
