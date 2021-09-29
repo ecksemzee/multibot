@@ -1,3 +1,5 @@
+# **Script is outdated because of release of discord.js v13**
+
 # multibot
 Run muliple Discord bots with same code in one window.
 
